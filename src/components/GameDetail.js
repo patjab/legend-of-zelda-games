@@ -19,7 +19,7 @@ class GameDetail extends Component {
           <h3>{ title }</h3>
           <div id="gameDetailGrid">
             <div id="gameMetaGrid">
-              <p><img src={image} style={{width: '30vmin'}} alt={title}/></p> 
+              <p><img src={image} style={{width: '30vmin'}} alt={title}/></p>
               Release Date: { release_date }<br/>
               Platform: { platform }<br/>
             </div>
