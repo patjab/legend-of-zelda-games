@@ -22,6 +22,80 @@
   color: #61dafb;
 }
 
+details {
+  text-align: left;
+}
+
+.boss, .treasure {
+  font-size: 12px;
+  padding-left: 30px;
+}
+
+#gameDetailGrid {
+  display: grid;
+  grid-template-columns: 35vmin 65vmin;
+}
+
+#gameDetailContainer {
+  margin-top: 10px;
+  padding-top: 10px;
+  background-color: #FFFFFF;
+  height: 70vh;
+  overflow-y: auto;
+}
+
+#NavigationBar {
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 5px;
+  background: #333333;
+  border-radius: 10px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+#Search {
+  background-color: #000000;
+  padding-top: 12px;
+}
+
+#Header {
+  font-size: 24px;
+  color: #FFFFFF;
+  background-color: #000000;
+  font-weight: bold;
+  padding: 10px;
+}
+
+input[type=text] {
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  text-align: center;
+}
+
+.linkToGame {
+  padding: 7px;
+}
+
+
+a {
+  text-decoration: none;
+  font-family: "Impact";
+  color: #FFFFFF;
+}
+
+a:hover {
+  color: yellow;
+  font-weight: bold;
+}
+
+body {
+  background-color: #000000;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
